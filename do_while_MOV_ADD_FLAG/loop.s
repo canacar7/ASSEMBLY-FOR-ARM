@@ -3,7 +3,7 @@
 	EXPORT __main
 __main
 	
-	mov r0,#0     ;for(r0=0;r0<10;r0++)
+	mov r0,#0     ; do while
 loop
 	add r0,r0,#1  ; r0++
 	cmp r0,#10
