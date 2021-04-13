@@ -1,6 +1,6 @@
 
-VAL1	RN		R1
-VAL2	RN		R2
+VAL1		RN		R1
+VAL2		RN		R2
 SUM		RN		R3
 
 
