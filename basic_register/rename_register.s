@@ -14,7 +14,7 @@ __main
 	  
 	  ADD	SUM,VAL1,VAL2
 
-Stop  B		Stop
+Stop  	  B	Stop
 	  END
 	  
 			
