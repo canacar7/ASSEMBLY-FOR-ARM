@@ -8,7 +8,7 @@ __main
 			EOR		R0,R0,R1
 			EOR		R1,R0,R1
 			EOR		R0,R0,R1
-Stop		B		Stop
+Stop			B		Stop
 			ALIGN
 			END
 
