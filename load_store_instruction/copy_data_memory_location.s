@@ -10,11 +10,11 @@ __main
 					BL		FILL
 					BL		COPY
 					
-Stop				B		 Stop
+Stop					B		 Stop
 				
 				
 
-FILL		   		LDR		R1,= RAM1_ADDR       				;r1 ram_adrr yi atadim
+FILL		   			LDR		R1,= RAM1_ADDR       				;r1 ram_adrr yi atadim
 					MOV		R0,#10                              ;dongunun 10 kez tekrarlanmasi icin sabit
 					LDR		R2,=0xDEEDBEEF                      ;R2 ye sabit atadim 
 					                                            
@@ -24,7 +24,7 @@ L1					STR		R2,[R1]                             ;R2 degeri r1 adresine kaydedilc
 					BNE		L1                                  ;dongunu sonlamasi icin
 					BX		LR                                  ;ana fonk da yaptimiz dallanmadan cikabilmek icin kullancaz
 					
-COPY				LDR		R1,=RAM1_ADDR
+COPY					LDR		R1,=RAM1_ADDR
 					LDR		R2,=RAM2_ADDR
 					MOV		R0,#10
 
