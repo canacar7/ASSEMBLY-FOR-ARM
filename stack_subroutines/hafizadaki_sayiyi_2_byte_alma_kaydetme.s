@@ -12,5 +12,5 @@ __main
 			LDRH	R1,[R0,#2]			;hafizada kayitli sayinin en anlamli 2 byte ni R1 e atadik
 			STRH	R1,[R0,#6]			;memory de kaydecegimiz yeri tanimladik R0 + 6
 		
-loop 		B		loop
+loop 			B		loop
 			END
